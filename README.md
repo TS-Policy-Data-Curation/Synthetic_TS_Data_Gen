@@ -18,10 +18,10 @@ make install
 
 Run and specify configuration here:
 ```
-research_project --n_layer 10000 --sample_list 2 3 5
+synth_data_gen --n_layer 10000 --sample_list 2 3 5
 ```
 
 Reuse an old config file by specifying the path:
 ```
-research_project --config $PWD/runs/<YYYY-MM-DD>---<HH-MM-SS>/config.json
+synth_data_gen --config $PWD/runs/<YYYY-MM-DD>---<HH-MM-SS>/config.json
 ```
